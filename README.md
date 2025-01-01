@@ -59,7 +59,7 @@ Easily map products from one taxonomy to another using vector similarity.
 3. Recommendations
 Build recommendation systems by clustering or ranking products based on embedding similarity.
 
-## Advanced : Prepare Your Dataset
+## 🛠️ Advanced Configuration : Prepare Your Dataset
 - Dataset Format: A .csv file with the following columns:
 - sentence1: First text input.
 - sentence2: Second text input (optional for single-sentence embeddings).
