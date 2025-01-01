@@ -70,7 +70,7 @@ Check out the official sentence-transformer [documentation](https://sbert.net/do
 Contributions are welcome! If you find issues or want to improve the model, feel free to create an issue or submit a pull request.
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ✨ Connect with Us
 For queries or suggestions, reach out via GitHub Issues or contact:
