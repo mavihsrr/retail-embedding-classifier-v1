@@ -4,6 +4,8 @@ This repository contains the script used to fine-tune the `retail-embedding-clas
 
 The fine-tuned model is available on [Hugging Face](https://huggingface.co/mavihsrr/retail-embedding-classifier-v1).
 
+## ✨ Key Features
+
 - **Product Similarity Matching**
 - **Taxonomy Conversion**
 - **Inventory Migration**
@@ -40,7 +42,7 @@ print(embeddings.shape)  # Output: (2, 768)
 ## 📊 Training Details
 - Base Model: BAAI/bge-base-en
 - Loss Function: CosineSimilarityLoss
-- Dataset: 174,064 training samples, focusing on retail-specific texts.
+- Dataset: 217,894 training samples, focusing on retail-specific texts.
 - Evaluation: 21,759 evaluation samples, achieving consistent high similarity scores.
 
 ## 💡 Use Cases
@@ -56,6 +58,13 @@ Easily map products from one taxonomy to another using vector similarity.
 
 3. Recommendations
 Build recommendation systems by clustering or ranking products based on embedding similarity.
+
+## Advanced : Prepare Your Dataset
+- Dataset Format: A .csv file with the following columns:
+- sentence1: First text input.
+- sentence2: Second text input (optional for single-sentence embeddings).
+- label: Similarity score (range: 0 to 1).
+Check out the official sentence-transformer [documentation](https://sbert.net/docs/sentence_transformer/dataset_overview.html) for further reference. 
 
 ## 🤝 Contributing
 Contributions are welcome! If you find issues or want to improve the model, feel free to create an issue or submit a pull request.
