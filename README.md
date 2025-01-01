@@ -1,6 +1,7 @@
 # 🛍️ Retail Embedding Classifier v1
 
 This repository contains the script used to fine-tune the `retail-embedding-classifier-v1`, a specialized model optimized for generating embeddings for retail-specific tasks. 
+
 The fine-tuned model is available on [Hugging Face](https://huggingface.co/mavihsrr/retail-embedding-classifier-v1).
 
 - **Product Similarity Matching**
